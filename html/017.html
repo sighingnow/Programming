@@ -1,0 +1,53 @@
+<h1 id="problem-17.-number-letter-counts">Problem 17. Number letter counts</h1>
+<h2 id="题目">题目</h2>
+<p>If the numbers 1 to 5 are written out in words: one, two, three, four, five, then there are 3 + 3 + 5 + 4 + 4 = 19 letters used in total.</p>
+<p>If all the numbers from 1 to 1000 (one thousand) inclusive were written out in words, how many letters would be used?</p>
+<p><em>NOTE</em>: Do not count spaces or hyphens. For example, 342 (three hundred and forty-two) contains 23 letters and 115 (one hundred and fifteen) contains 20 letters. The use of &quot;and&quot; when writing out numbers is in compliance with British usage.</p>
+<p><a href="https://projecteuler.net/problem=17%20title=&quot;Problem%2017&quot;">Problem 17. Number letter counts</a></p>
+<h2 id="翻译">翻译</h2>
+<p>如果用英文写出数字1到5: one, two, three, four, five, 那么一共需要3 + 3 + 5 + 4 + 4 = 19个字母。</p>
+<p>如果数字1到1000（包含1000）用英文写出，那么一共需要多少个字母？</p>
+<p><em>注意</em>: 空格和连字符不算在内。例如，342 (three hundred and forty-two)包含23个字母； 115 (one hundred and fifteen)包含20个字母。&quot;and&quot; 的使用与英国标准一致。</p>
+<p><a href="http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/18-1711000%20title=&quot;题目17&quot;">题目17:用英文写出1到1000的所有数字需要多少个字母</a></p>
+<h2 id="题解python">题解(Python)</h2>
+<p>答案(answer): 21124</p>
+<p>数字的规律</p>
+<pre>
+0：null   10：ten        20：twenty          ......      100：one hundred
+1：one    11：eleven     21：twenty-one      ......      101：one hundred and one
+2：two    12：twelve     22：twenty-two      ......      102：one hundred and two
+.........
+1000 one thousand
+</pre>
+<p>可以看出当十位是1时，要单独考虑。</p>
+<p>当十位数不是1时，是在十位数的基础上加上各位数的长度</p>
+<p>当有百位数时，百位由百位上的数加上hundred and</p>
+<p>为整百时，会少一个and</p>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="co">#! /usr/bin/env python</span>
+<span class="co"># -*- coding: utf-8</span>
+
+a = [<span class="dv">0</span>,<span class="dv">3</span>,<span class="dv">3</span>,<span class="dv">5</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">3</span>,<span class="dv">5</span>,<span class="dv">5</span>,<span class="dv">4</span>]
+b = [<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">6</span>,<span class="dv">6</span>,<span class="dv">5</span>,<span class="dv">5</span>,<span class="dv">5</span>,<span class="dv">7</span>,<span class="dv">6</span>,<span class="dv">6</span>]
+c = [<span class="dv">3</span>,<span class="dv">6</span>,<span class="dv">6</span>,<span class="dv">8</span>,<span class="dv">8</span>,<span class="dv">7</span>,<span class="dv">7</span>,<span class="dv">9</span>,<span class="dv">8</span>,<span class="dv">8</span>]
+
+ans = <span class="dv">0</span>
+
+<span class="kw">for</span> i in <span class="dt">range</span>(<span class="dv">1</span>, <span class="dv">1000</span>):
+    <span class="kw">if</span> i//<span class="dv">10</span>%<span class="dv">10</span> == <span class="dv">1</span>: <span class="co"># 1 at units digit</span>
+        ans += c[i%<span class="dv">10</span>]
+    <span class="kw">else</span>:
+        ans += a[i%<span class="dv">10</span>]
+        ans += b[i//<span class="dv">10</span>%<span class="dv">10</span>]
+    <span class="kw">if</span> i // <span class="dv">100</span> &gt; <span class="dv">0</span>: <span class="co"># number greater than 99 (three digits)</span>
+        <span class="kw">if</span> i % <span class="dv">100</span> == <span class="dv">0</span>:
+            ans += (a[i//<span class="dv">100</span>]+<span class="dv">7</span>)
+        <span class="kw">else</span>:
+            ans += (a[i//<span class="dv">100</span>]+<span class="dv">10</span>)
+ans += <span class="dv">11</span> <span class="co"># 1000</span>
+<span class="dt">print</span>(ans)
+
+<span class="co"># vim: set sw=4, ts=4, fileencoding=utf-8</span></code></pre>
+<h2 id="参考reference">参考(Reference):</h2>
+<ol style="list-style-type: decimal">
+<li><a href="http://www.cnblogs.com/xianglan/archive/2011/03/03/1970334.html">[Project Euler] Problem 17 - xiatwhu - 博客园</a></li>
+</ol>

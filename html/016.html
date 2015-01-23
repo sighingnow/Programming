@@ -1,0 +1,12 @@
+<h1 id="problem-16.-power-digit-sum">Problem 16. Power digit sum</h1>
+<h2 id="题目">题目</h2>
+<p>2^15 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.</p>
+<p>What is the sum of the digits of the number 2^1000?</p>
+<p><a href="https://projecteuler.net/problem=16%20title=&quot;Problem%2016&quot;">Problem 16. Power digit sum</a></p>
+<h2 id="翻译">翻译</h2>
+<p>2^15 = 32768 并且其各位之和为 is 3 + 2 + 7 + 6 + 8 = 26.</p>
+<p>2^1000 的各位数之和是多少？</p>
+<p><a href="http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/17-1621000%20title=&quot;题目16&quot;">题目16:2的1000次方的各位之和是多少</a></p>
+<h2 id="题解python">题解(Python)</h2>
+<p>答案(answer): 1366</p>
+<pre class="sourceCode python"><code class="sourceCode python">ans = <span class="dt">sum</span>([<span class="dt">int</span>(i) <span class="kw">for</span> i in <span class="dt">str</span>(<span class="dv">2</span>**<span class="dv">1000</span>)])</code></pre>

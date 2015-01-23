@@ -1,0 +1,28 @@
+<h1 id="problem-5.-smallest-multiple">Problem 5. Smallest multiple</h1>
+<h2 id="题目">题目</h2>
+<p>2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.</p>
+<p>What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?</p>
+<p><a href="https://projecteuler.net/problem=5%20title=&quot;Problem%205&quot;">Problem 5. Smallest multiple</a></p>
+<h2 id="翻译">翻译</h2>
+<p>2520是最小的能被1-10中每个数字整除的正整数。</p>
+<p>最小的能被1-20中每个数整除的正整数是多少？</p>
+<p><a href="http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/6-51-20%20title=&quot;题目5&quot;">题目5：找出最小的能被1-20中每个数整除的数</a></p>
+<h2 id="题解python">题解(Python)</h2>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="co">#! /usr/bin/env python</span>
+<span class="co"># -*- coding: utf-8</span>
+
+<span class="kw">def</span> gcd(a, b):
+    <span class="kw">if</span>(b == <span class="dv">0</span>):
+        <span class="kw">return</span> a
+    <span class="kw">return</span> gcd(b, a % b)
+
+<span class="kw">def</span> lcm(a, b):
+    <span class="kw">return</span> a * b // gcd(a, b)
+                
+<span class="kw">if</span> <span class="ot">__name__</span> == <span class="st">&#39;__main__&#39;</span>:
+    ans = <span class="dv">1</span>
+    <span class="kw">for</span> i in <span class="dt">range</span>(<span class="dv">2</span>, <span class="dv">21</span>):
+        ans = lcm(ans, i)
+    <span class="dt">print</span>(ans)
+
+<span class="co"># vim: set sw=4, ts=4</span></code></pre>

@@ -1,0 +1,32 @@
+<h1 id="problem-7.-10001st-prime">Problem 7. 10001st prime</h1>
+<h2 id="题目">题目</h2>
+<p>By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.</p>
+<p>What is the 10 001st prime number?</p>
+<p><a href="https://projecteuler.net/problem=7%20title=&quot;Problem%207&quot;">Problem 7. 10001st prime</a></p>
+<h2 id="翻译">翻译</h2>
+<p>前六个质数是2,3,5,7,11和13，其中第6个是13.</p>
+<p>第10001个质数是多少？</p>
+<p><a href="http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/8-710001%20title=&quot;题目7&quot;">题目7：找出第10001个质数</a></p>
+<h2 id="题解python">题解(Python)</h2>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="co">#! /usr/bin/env python</span>
+<span class="co"># -*- coding: utf-8</span>
+
+<span class="kw">def</span> prime(n):
+    <span class="kw">if</span> n == <span class="dv">2</span> or n == <span class="dv">3</span>:
+        <span class="kw">return</span> <span class="ot">True</span>
+    k = <span class="dv">2</span>
+    <span class="kw">while</span> k * k &lt;= n:
+        <span class="kw">if</span> n % k == <span class="dv">0</span>:
+            <span class="kw">return</span> <span class="ot">False</span>
+        k += <span class="dv">1</span>
+    <span class="kw">return</span> <span class="ot">True</span>
+            
+<span class="kw">if</span> <span class="ot">__name__</span> == <span class="st">&#39;__main__&#39;</span>:
+    count, i = <span class="dv">1</span>, <span class="dv">2</span>
+    <span class="kw">while</span> count &lt;= <span class="dv">10001</span>:
+        <span class="kw">if</span> prime(i) == <span class="ot">True</span>:
+            count += <span class="dv">1</span>
+        i += <span class="dv">1</span>
+    <span class="dt">print</span>(i<span class="dv">-1</span>)
+
+<span class="co"># vim: set sw=4, ts=4</span></code></pre>
