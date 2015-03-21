@@ -1,0 +1,15 @@
+---
+layout: page
+permalink: /archive/
+title: archive
+tags: [archive]
+description: "An archive of posts sorted by problem order"
+---
+
+<div><ul class="post-list">
+    {% for post in site.posts | sort: 'title' %}
+        <li><a class="pjax" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
+            <span class="published"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span>
+        </a></li>
+    {% endfor %}
+</ul></div>

@@ -1,115 +1,39 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="text/html">
-    <meta name="description" content="Project Euler Solutions : The algorithm, program and answer of problems in project euler.">
+---
+layout: default
+title: Home
+---
 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.css" />
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.4.0/MathJax.js?config=TeX-AMS_HTML"></script>
-    <script type="text/javascript" src="./javascripts/main.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css" />
-    <title>Project Euler Solutions</title>
-</head>
+<div class="home">
 
-<body>
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/DHDave/project-euler-solutions">View on GitHub</a>
+  <ul class="posts">
+    {% for post in paginator.posts %}
+    <li>
+      <h1 >{{ post.title }}</h1>
+      <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+      {{ post.excerpt }}
+      <div class="continue">
+        <a href="{{ post.url | prepend: site.baseurl }}">&bull;&bull;&bull;</a>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 
-          <h1 id="project_title">Project Euler Solutions</h1>
-          <h2 id="project_tagline">The algorithm, program and answer of problems in project euler.</h2>
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      {% if page == 2 %}
+        <a class="page-link" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">prv</a>
+      {% else %}
+        <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">prv</a>
+      {% endif %}
+    {% else %}
+      <span class="page-link">prv</span>
+    {% endif %}
 
-            <section id="downloads">
-                <a class="zip_download_link" href="https://github.com/DHDave/project-euler-solutions/zipball/gh-pages">Download this project as a .zip file</a>
-                <a class="tar_download_link" href="https://github.com/DHDave/project-euler-solutions/tarball/gh-pages">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+    {% if paginator.next_page %}
+      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">nxt</a>
+    {% else %}
+      <span class="page-link">nxt</span>
+    {% endif %}
+  </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-        <section id="navigator" class="inner">
-            <ul class="pagination">
-                <li><a href="javascript:void(0);" id="prev_group">&laquo;</a></li>
-                <li><a class="page_number" id="001">001</a></li>
-                <li><a class="page_number" id="002">002</a></li>
-                <li><a class="page_number" id="003">003</a></li>
-                <li><a class="page_number" id="004">004</a></li>
-                <li><a class="page_number" id="005">005</a></li>
-                <li><a class="page_number" id="006">006</a></li>
-                <li><a class="page_number" id="007">007</a></li>
-                <li><a class="page_number" id="008">008</a></li>
-                <li><a class="page_number" id="009">009</a></li>
-                <li><a class="page_number" id="010">010</a></li>
-                <li><a href="javascript:void(0);" id="next_group">&raquo;</a></li>
-            </ul>
-        </section>
-        <section id="main_content" class="carousel slide inner" data-interval="false">
-            <!-- 轮播（Carousel）指标 -->
-            <ol class="carousel-indicators">
-               <li data-target="#main_content" data-slide-to="0" class="active"></li>
-               <li data-target="#main_content" data-slide-to="1"></li>
-            </ol>
-            <!-- 轮播（Carousel）项目 -->
-            <div class="carousel-inner">
-                <div id="page_1" class="item active">
-                    <div>
-                        <h1> What's project-euler ? </h1>
-                        <p><small><a href="https://en.wikipedia.org/wiki/Project_Euler" target="_blank"><b>Project Euler</b></a></small>
-                        (named after Leonhard Euler) is a website dedicated to a series of computational problems intended to be solved with computer programs. The project attracts adults and students interested in mathematics and computer programming.</p>
-                        <p>Participants can track their progress through achievement levels based on the number of problems solved. A new level is reached for every 25 problems solved. </p>
-                        </div>
-                        <br />
-                        <div>
-                        <h1> 什么是“欧拉计划” ？</h1>
-                        <p><small><a href="https://zh.wikipedia.org/wiki/%E6%AC%A7%E6%8B%89%E8%AE%A1%E5%88%92" target="_blank"><b>欧拉计划(Project Euler)</b></a></small>
-                        是一个解题网站，站内提供了一系列数学题供用户解答，解题的用户主要是对数学和计算机编程感兴趣的成年人及学生。目前该站包含了四百多道不同难度的数学题，每一题都可以通过计算机程序在1分钟内求出结果。</p>
-                        </div>
-                        <br />
-                        <div>
-                        <h1>Accept</h1>
-                        <h4><span>Solved 17 out of 498 problems</span></h4>
-                        <div class="progress progress-striped">
-                            <div class="progress-bar progress-bar-success" role="progressbar" 
-                                    aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"  
-                                    style="width: 3.4%;">
-                                <span class="sr-only">3.4% 完成</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="page_2" class="item">
-                    
-                </div>
-            </div>
-        </section>
-        <section id="footer_navigator" class="inner">
-            <ul class="pager">
-                  <li id="previouspage"class="previous"><a href="javascript:void(0);">&larr; Previous</a></li>
-                  <li id="nextpage" class="next"><a href="javascript:void(0);">Next &rarr;</a></li>
-            </ul>
-        </section>
-        
-        <!-- 模态框（Modal） -->
-        <section id="loading">
-            <div class="modal fade" id="loading_model" tabindex="-1" role="dialog" 
-                    aria-labelledby="loading_model_label" aria-hidden="true"
-                    data-backdrop="static" data-keyboard=false>
-            </div>
-            <div id="loading_pic">
-            </div>
-        </section>
-    </div>
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-        <footer class="inner">
-            <p class="copyright">Project Euler Solutions maintained by <a href="https://github.com/DHDave">DHDave</a></p>
-            <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-        </footer>
-    </div>
-</body>
-</html>
+</div>

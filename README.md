@@ -15,7 +15,9 @@ What's project-euler ?
 Usage
 -----
 
-The directory *"solutions"* includes all solutions in Markdown text format. Other files are used to maintain the homepage.
+The directory *"solutions"* includes all solutions in Markdown text format. 
+
+Other files are used to maintain the homepage.
 
 Bacause `latex` text can't be rendered by github's webpage style, for more details of this project, please visit [Project-euler-solutions -- Github](https://dhdave.github.io/project-euler-solutions/ "project-euler-solutions").
 
@@ -31,4 +33,4 @@ License
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Tao He
+Copyright (c) 2015 DHDave

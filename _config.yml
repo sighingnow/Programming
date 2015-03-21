@@ -1,0 +1,54 @@
+# Site settings
+title: "Project Euler"
+description: "Project Euler solutions and translations."
+baseurl: "/project-euler-solutions"
+url: "https://dhdave.github.io"
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      true
+unpublished: false
+
+# Plugins
+whitelist: []
+gems:      []
+
+# Conversion
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+highlighter: pygments
+lsi:         false
+excerpt_separator: "<!--more-->"
+
+# Backwards-compatibility
+relative_permalinks: false
+
+# Outputting
+permalink:     /:categories/:title
+paginate: 3
+paginate_path: /page:num
+timezone:      Asia/Shanghai
+
+quiet:    false
+defaults: []
+
+# Markdown Processors
+maruku:
+  fenced_code_blocks: true
+
+redcloth:
+  hard_breaks: true
+
+# Links
+links:
+  - title: "home"
+    url: /index
+  - title: "archive"
+    url: /archive
+  - title: "about"
+    url: /about
+  - title: "rss"
+    url: /feed.xml
+

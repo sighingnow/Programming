@@ -55,4 +55,5 @@ target/
 
 # overview pdf files.
 Overview/
-
+_site/
+_drafts/
