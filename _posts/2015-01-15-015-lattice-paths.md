@@ -8,7 +8,7 @@ layout: post
 ## 题目
 Starting in the top left corner of a 2×2 grid, and only being able to move to the right and down, there are exactly 6 routes to the bottom right corner.
 
-![Problem 15](./images/p015-1.png)
+![Problem 15](../images/p015-1.png)
 
 How many such routes are there through a 20×20 grid?
 
@@ -18,7 +18,7 @@ How many such routes are there through a 20×20 grid?
 ## 翻译
 从一个20×20网格的左上角开始，有6条（不允许往回走）通往右下角的路。
 
-![题目15](./images/p015-1.png)
+![题目15](../images/p015-1.png)
 
 对于20×20的网格，这样的路有多少条？
 
