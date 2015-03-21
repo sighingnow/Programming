@@ -5,9 +5,6 @@ date: 2015-02-10
 layout: post
 ---
 
-Problem 40. Champernowne's constant
-------------------------------------
-
 ## 题目
 
 An irrational decimal fraction is created by concatenating the positive integers:

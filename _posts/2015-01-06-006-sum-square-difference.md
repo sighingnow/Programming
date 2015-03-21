@@ -5,9 +5,6 @@ date: 2015-01-06
 layout: post
 ---
 
-Problem 6. Sum square difference
----------------------------------
-
 ## 题目
 The sum of the squares of the first ten natural numbers is,
 <center>$$

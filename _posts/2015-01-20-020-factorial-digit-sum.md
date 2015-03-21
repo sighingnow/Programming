@@ -5,9 +5,6 @@ date: 2015-01-20
 layout: post
 ---
 
-Problem 20. Factorial digit sum
---------------------------------
-
 ## 题目
 
 n! means $$ n \times (n − 1) \times ... \times 3 \times 2 \times 1 $$

@@ -5,9 +5,6 @@ date: 2015-01-08
 layout: post
 ---
 
-Problem 8. Largest product in a series
----------------------------------------
-
 ## 题目
 The four adjacent digits in the 1000-digit number that have the greatest product are 
 

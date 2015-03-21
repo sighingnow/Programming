@@ -5,9 +5,6 @@ date: 2015-01-19
 layout: post
 ---
 
-Problem 19. Counting Sundays
------------------------------
-
 ## 题目
 
 You are given the following information, but you may prefer to do some research for yourself.

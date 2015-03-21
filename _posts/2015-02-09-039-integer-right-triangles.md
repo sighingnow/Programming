@@ -5,9 +5,6 @@ date: 2015-02-09
 layout: post
 ---
 
-Problem 39. Integer right triangles
------------------------------------
-
 ## 题目
 
 If p is the perimeter of a right angle triangle with integral length sides, {a,b,c}, there are exactly three solutions for p = 120.

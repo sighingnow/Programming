@@ -5,9 +5,6 @@ date: 2015-02-17
 layout: post
 ---
 
-Problem 47. Distinct primes factors
------------------------------------
-
 ## 题目
 
 [Problem 47. Distinct primes factors](https://projecteuler.net/problem=47 title="Problem 47")

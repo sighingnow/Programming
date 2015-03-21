@@ -5,9 +5,6 @@ date: 2015-01-28
 layout: post
 ---
 
-Problem 28. Number spiral diagonals
-----------------------------------
-
 ## 题目
 
 Starting with the number 1 and moving to the right in a clockwise direction a 5 by 5 spiral is formed as follows:

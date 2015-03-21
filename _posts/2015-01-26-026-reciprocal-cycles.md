@@ -5,9 +5,6 @@ date: 2015-01-26
 layout: post
 ---
 
-Problem 26. Reciprocal cycles
------------------------------
-
 ## 题目
 
 A unit fraction contains 1 in the numerator. The decimal representation of the unit fractions with denominators 2 to 10 are given:

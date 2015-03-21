@@ -5,9 +5,6 @@ date: 2015-02-11
 layout: post
 ---
 
-Problem 41. Pandigital prime
-----------------------------
-
 ## 题目
 
 We shall say that an _n-digit_ number is pandigital if it makes use of all the digits 1 to n exactly once. For example, 2143 is a 4-digit pandigital and is also prime.

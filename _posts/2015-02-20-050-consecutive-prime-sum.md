@@ -5,9 +5,6 @@ date: 2015-02-20
 layout: post
 ---
 
-Problem 50. Consecutive prime sum
------------------------------------
-
 ## 题目
 
 [Problem 50. Consecutive prime sum](https://projecteuler.net/problem=50 title="Problem 50")

@@ -5,9 +5,6 @@ date: 2015-02-12
 layout: post
 ---
 
-Problem 42. Coded triangle numbers
------------------------------------
-
 ## 题目
 
 [Problem 42. Coded triangle numbers](https://projecteuler.net/problem=42 title="Problem 42")

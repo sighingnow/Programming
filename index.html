@@ -8,7 +8,7 @@ title: Home
   <ul class="posts">
     {% for post in paginator.posts %}
     <li>
-      <h1 >{{ post.title }}</h1>
+      <h1 ><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
       <span>{{ post.date | date: "%b %-d, %Y" }}</span>
       {{ post.excerpt }}
       <div class="continue">

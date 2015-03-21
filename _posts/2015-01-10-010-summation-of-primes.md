@@ -5,9 +5,6 @@ date: 2015-01-10
 layout: post
 ---
 
-Problem 10. Summation of primes
--------------------------------
-
 ## 题目
 The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 

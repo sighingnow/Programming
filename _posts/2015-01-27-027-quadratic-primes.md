@@ -5,9 +5,6 @@ date: 2015-01-27
 layout: post
 ---
 
-Problem 27. Quadratic primes
------------------------------
-
 ## 题目
 
 Euler discovered the remarkable quadratic formula:

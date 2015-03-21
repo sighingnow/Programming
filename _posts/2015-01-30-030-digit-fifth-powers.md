@@ -5,9 +5,6 @@ date: 2015-01-30
 layout: post
 ---
 
-Problem 30. Digit fifth powers
--------------------------------
-
 ## 题目
 
 Surprisingly there are only three numbers that can be written as the sum of fourth powers of their digits:

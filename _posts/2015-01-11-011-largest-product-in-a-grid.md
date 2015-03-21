@@ -5,9 +5,6 @@ date: 2015-01-11
 layout: post
 ---
 
-Problem 11. Largest product in a grid
---------------------------------------
-
 ## 题目
 In the 20×20 grid below, four numbers along a diagonal line have been marked in red.
 

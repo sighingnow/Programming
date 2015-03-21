@@ -5,9 +5,6 @@ date: 2015-01-24
 layout: post
 ---
 
-Problem 24. Lexicographic permutations
----------------------------------------
-
 ## 题目
 
 A permutation is an ordered arrangement of objects. For example, 3124 is one possible permutation of the digits 1, 2, 3 and 4. If all of the permutations are listed numerically or alphabetically, we call it lexicographic order. The lexicographic permutations of 0, 1 and 2 are:

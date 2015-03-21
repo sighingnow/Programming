@@ -5,9 +5,6 @@ date: 2015-02-04
 layout: post
 ---
 
-Problem 34. Digit factorials
--------------------------------
-
 ## 题目
 
 145 is a curious number, as 1! + 4! + 5! = 1 + 24 + 120 = 145.

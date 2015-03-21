@@ -5,9 +5,6 @@ date: 2015-01-25
 layout: post
 ---
 
-Problem 25. 1000-digit Fibonacci number
------------------------------------------
-
 ## 题目
 
 The Fibonacci sequence is defined by the recurrence relation:

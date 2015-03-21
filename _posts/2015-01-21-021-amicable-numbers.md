@@ -5,9 +5,6 @@ date: 2015-01-21
 layout: post
 ---
 
-Problem 21. Amicable numbers
----------------------------
-
 ## 题目
 
 Let d(n) be defined as the sum of proper divisors of n (numbers less than n which divide evenly into n).

@@ -5,9 +5,6 @@ date: 2015-01-29
 layout: post
 ---
 
-Problem 29. Distinct powers
-----------------------------
-
 ## 题目
 
 

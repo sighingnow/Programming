@@ -5,9 +5,6 @@ date: 2015-01-09
 layout: post
 ---
 
-Problem 9. Special Pythagorean triplet
----------------------------------------
-
 ## 题目
 A Pythagorean triplet is a set of three natural numbers, <i>a < b < c</i>, for which,
 

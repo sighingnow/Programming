@@ -5,9 +5,6 @@ date: 2015-02-19
 layout: post
 ---
 
-Problem 49. Prime permutations
-------------------------------
-
 ## 题目
 
 [Problem 49. Prime permutations](https://projecteuler.net/problem=49 title="Problem 49")

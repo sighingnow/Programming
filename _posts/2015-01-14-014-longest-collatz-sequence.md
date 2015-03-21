@@ -5,9 +5,6 @@ date: 2015-01-14
 layout: post
 ---
 
-Problem 14. Longest Collatz sequence
--------------------------------------
-
 ## 题目
 The following iterative sequence is defined for the set of positive integers:
 
