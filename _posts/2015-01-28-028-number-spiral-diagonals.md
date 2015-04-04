@@ -16,7 +16,7 @@ Starting with the number 1 and moving to the right in a clockwise direction a 5 
 18  5  4  3 12
 17 16 15 14 13
 </pre></center>
-
+<!--more-->
 It can be verified that the sum of the numbers on the diagonals is 101.
 
 What is the sum of the numbers on the diagonals in a 1001 by 1001 spiral formed in the same way?
@@ -43,23 +43,22 @@ What is the sum of the numbers on the diagonals in a 1001 by 1001 spiral formed 
 
 ## 题解
 
-分析：递推式
+分析：直接暴力求解，累加求和即可。
 
-$$ S_1 = 1 $$
-$$ S_n = S_{n-1} + 16 n ^ 2 - 28 \times n + 16, \ (n > 1) $$
-
-答案(answer): 5343342001
+答案(answer): 669171001
 
 ```python
 #! /usr/bin/env python
 # -*- coding: utf-8
 
 if __name__ == '__main__':
-    ans, i = 1, 1
-    while i < 1001:
-        i += 1
-        ans = ans + (16 * i - 28) * i + 16
-    print(i, ans)
+    sum = 1
+    for i in range(3, 1002, 2):
+        sum += i*i
+        sum += i*i-i+1;
+        sum += i*i-2*i+2;
+        sum += i*i-3*i+3;
+    print(sum)
 
 # vim: set sw=4, ts=4
 ```

@@ -14,7 +14,7 @@ Take the number 192 and multiply it by each of 1, 2, and 3:
     192 × 3 = 576
 
 By concatenating each product we get the 1 to 9 pandigital, 192384576. We will call 192384576 the concatenated product of 192 and (1,2,3)
-
+<!--more-->
 The same can be achieved by starting with 9 and multiplying by 1, 2, 3, 4, and 5, giving the pandigital, 918273645, which is the concatenated product of 9 and (1,2,3,4,5).
 
 What is the largest 1 to 9 pandigital 9-digit number that can be formed as the concatenated product of an integer with (1,2, ... , n) where n > 1?
@@ -39,13 +39,21 @@ What is the largest 1 to 9 pandigital 9-digit number that can be formed as the c
 
 ## 题解
 
-答案(answer): 
+分析：首先，要找最大的数，那么用来拼接的项应当尽量少，n大于1，那么最少两项。枚举即可。
+
+答案(answer): 932718654
 
 ```python
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
 if __name__ == '__main__':
+    ans = 0
+    for x in range(3334, 10000):
+        s = str(str(x)+str(x*2))
+        if '0' not in s and len(s)==9 and len(set(s)) == 9:
+            ans = int(s)
+    print(ans)
 
 # vim: set sw=4, ts=4
 ```

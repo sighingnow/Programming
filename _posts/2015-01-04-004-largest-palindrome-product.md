@@ -11,7 +11,7 @@ A palindromic number reads the same both ways. The largest palindrome made from 
 Find the largest palindrome made from the product of two 3-digit numbers.
 
 [Problem 4. Largest prime factor](https://projecteuler.net/problem=4 title="Problem 4")
-
+<!--more-->
 ## 翻译
 一个回文数指的是从左向右和从右向左读都一样的数字。最大的由两个两位数乘积构成的回文数是9009 = 91 * 99.
 

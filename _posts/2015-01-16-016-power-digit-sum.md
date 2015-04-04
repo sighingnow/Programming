@@ -11,7 +11,7 @@ layout: post
 What is the sum of the digits of the number 2^1000?
 
 [Problem 16. Power digit sum](https://projecteuler.net/problem=16 title="Problem 16")
-
+<!--more-->
 ## 翻译
 2^15 = 32768 并且其各位之和为 is 3 + 2 + 7 + 6 + 8 = 26.
 

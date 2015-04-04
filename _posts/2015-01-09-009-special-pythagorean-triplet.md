@@ -11,7 +11,7 @@ A Pythagorean triplet is a set of three natural numbers, <i>a < b < c</i>, for w
 <center>$$a^2 + b^2 = c^2$$</center>
 
 For example, 
-
+<!--more-->
 <center>$$32 + 42 = 9 + 16 = 25 = 52.$$</center>
 
 There exists exactly one Pythagorean triplet for which <i>a + b + c = 1000.</i>

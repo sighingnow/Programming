@@ -12,7 +12,7 @@ An irrational decimal fraction is created by concatenating the positive integers
 $$ 0.123456789101112131415161718192021... $$
 
 It can be seen that the 12th digit of the fractional part is 1.
-
+<!--more-->
 If dn represents the nth digit of the fractional part, find the value of the following expression.
 
 $$ d_1 \times d_10 \times d_100 \times d_1000 \times d_10000 \times d_100000 \times d_1000000 $$
@@ -35,13 +35,32 @@ $$ d_1 \times d_10 \times d_100 \times d_1000 \times d_10000 \times d_100000 \ti
 
 ## 题解
 
-答案(answer): 
+分析：
 
-```python
-#! /usr/bin/env python
-# -*- coding: utf-8 -*-
+不难推出如下的序列：
 
-if __name__ == '__main__':
-
-# vim: set sw=4, ts=4
 ```
+1-9: 9                           ----    9
+10-99: 90*2 = 180                -----   189
+100-999: 900*3 = 2700            -----   2889
+1000-9999: 9000*4 = 36000        -----   38889
+10000-99999: 90000*5 = 450000    -----   488889
+100000-999999: 9000000*6 = 54000000
+```
+
+计算一下位数，便不难得出：
+
+```
+d_1 = 1
+d_10 = 1
+d_100 = 5
+d_1000 = 3
+d_10000 = 7
+d_100000 = 2
+d_1000000 = 1
+```
+
+相乘：得`210`。
+
+答案(answer): 210
+

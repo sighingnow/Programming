@@ -7,7 +7,7 @@ layout: post
 
 ## 题目
 The four adjacent digits in the 1000-digit number that have the greatest product are 
-
+<!--more-->
 <center>$$9 × 9 × 8 × 9 = 5832.$$</center>
 <center><pre>
 73167176531330624919225119674426574742355349194934

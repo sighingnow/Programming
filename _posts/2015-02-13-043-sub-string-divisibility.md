@@ -10,7 +10,7 @@ layout: post
 The number, 1406357289, is a 0 to 9 pandigital number because it is made up of each of the digits 0 to 9 in some order, but it also has a rather interesting sub-string divisibility property.
 
 Let <i>d</i><sub>1</sub> be the 1st digit, <i>d</i><sub>2</sub> be the 2nd digit, and so on. In this way, we note the following:
-
+<!--more-->
 <ul>
 <li><i>d</i><sub>2</sub><i>d</i><sub>3</sub><i>d</i><sub>4</sub>=406 is divisible by 2</li>
 <li><i>d</i><sub>3</sub><i>d</i><sub>4</sub><i>d</i><sub>5</sub>=063 is divisible by 3</li>

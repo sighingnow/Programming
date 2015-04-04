@@ -15,7 +15,7 @@ By starting at the top of the triangle below and moving to adjacent numbers on t
 2 4 6
 8 5 9 3
 </pre></center>
-
+<!--more-->
 That is, $$3 + 7 + 4 + 9 = 23.$$
 
 Find the maximum total from top to bottom of the triangle below:

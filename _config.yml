@@ -27,7 +27,7 @@ relative_permalinks: false
 
 # Outputting
 permalink:     /:categories/:title
-paginate: 3
+paginate: 6
 paginate_path: /page:num
 timezone:      Asia/Shanghai
 

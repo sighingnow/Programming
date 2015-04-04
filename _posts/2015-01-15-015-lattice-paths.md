@@ -11,7 +11,7 @@ Starting in the top left corner of a 2×2 grid, and only being able to move to t
 ![Problem 15](../images/p015-1.png)
 
 How many such routes are there through a 20×20 grid?
-
+<!--more-->
 
 [Problem 15.Lattice-paths](https://projecteuler.net/problem=15 title="Problem 15")
 

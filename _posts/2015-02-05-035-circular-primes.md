@@ -12,7 +12,7 @@ The number, 197, is called a circular prime because all rotations of the digits:
 There are thirteen such primes below 100: 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73, 79, and 97.
 
 How many circular primes are there below one million?
-
+<!--more-->
 [Problem 35. Circular primes](https://projecteuler.net/problem=35 title="Problem 35")
 
 ## 翻译
@@ -27,7 +27,7 @@ How many circular primes are there below one million?
 
 ## 题解
 
-答案(answer): 56
+答案(answer): 212
 
 ```python
 #! /usr/bin/env python
@@ -58,9 +58,8 @@ if __name__ == '__main__':
     cnt = 0
     precess()
     for i in range(2, 1000000):
-        if not flag[i] and rotate(i):
-            print(i)
-            cnt += len(str(i))
+        if rotate(i):
+            cnt += 1
     print(cnt)
 # vim: set sw=4, ts=4
 ```
