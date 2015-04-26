@@ -15,7 +15,7 @@ As 12 is the smallest abundant number, 1 + 2 + 3 + 4 + 6 = 16, the smallest numb
 
 Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.
 
-[Problem 23. Non-abundant sums](https://projecteuler.net/problem=23 title="Problem 23")
+[Problem 23. Non-abundant sums](https://projecteuler.net/problem=23 "Problem 23")
 
 ## 翻译
 
@@ -27,7 +27,7 @@ Find the sum of all the positive integers which cannot be written as the sum of 
 
 找出所有不能表示为两个过剩数之和的正整数之和。
 
-[题目23：算出所有不能写成两个过剩数之和的正整数之和。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/24-23 title="题目23")
+[题目23：算出所有不能写成两个过剩数之和的正整数之和。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/24-23 "题目23")
 
 ## 题解
 

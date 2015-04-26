@@ -23,7 +23,7 @@ If the word value is a triangle number then we shall call the word a triangle wo
 
 Using [words.txt](../resource/p042_words.txt) (right click and 'Save Link/Target As...'), a 16K text file containing nearly two-thousand common English words, how many are triangle words?
 
-[Problem 42. Coded triangle numbers](https://projecteuler.net/problem=42 title="Problem 42")
+[Problem 42. Coded triangle numbers](https://projecteuler.net/problem=42 "Problem 42")
 
 ## 翻译
 
@@ -43,7 +43,7 @@ $$ 19 + 11 + 25 = 55 = t10 $$
 
 [words.txt](../resource/p042_words.txt) (右键另存为)是一个16K的文本文件，包含将近两千个常用英语单词。在这个文件中，一共有多少个三角形词？
 
-[题目42：这个英语词列表里共有多少个三角形词？](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/43-42 title="题目42")
+[题目42：这个英语词列表里共有多少个三角形词？](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/43-42 "题目42")
 
 ## 题解
 

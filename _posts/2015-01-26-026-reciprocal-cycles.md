@@ -25,7 +25,7 @@ Where 0.1(6) means 0.166666..., and has a 1-digit recurring cycle. It can be see
 
 Find the value of d < 1000 for which 1/d contains the longest recurring cycle in its decimal fraction part.
 
-[Problem 26. Reciprocal cycles](https://projecteuler.net/problem=26 title="Problem 26")
+[Problem 26. Reciprocal cycles](https://projecteuler.net/problem=26 "Problem 26")
 
 ## 翻译
 分子为1的分数称为单分数。分母是2到10的单分数用十进制表示如下：
@@ -46,7 +46,7 @@ Find the value of d < 1000 for which 1/d contains the longest recurring cycle in
 
 找出小于1000的数字d，1/d 的十进制表示含有最长的循环圈。
 
-[题目26：找出小于1000的数字中令1/d拥有最长循环圈的数字d](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/27-2610001dd title="题目26")
+[题目26：找出小于1000的数字中令1/d拥有最长循环圈的数字d](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/27-2610001dd "题目26")
 
 ## 题解
 

@@ -33,7 +33,7 @@ The four adjacent digits in the 1000-digit number that have the greatest product
 </pre></center>
 Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?
 
-[Problem 8. Largest product in a series](https://projecteuler.net/problem=8 title="Problem 8")
+[Problem 8. Largest product in a series](https://projecteuler.net/problem=8 "Problem 8")
 
 ## 翻译
 找出以下这个1000位的整数中连续13个数字的最大乘积。
@@ -61,7 +61,7 @@ Find the thirteen adjacent digits in the 1000-digit number that have the greates
 71636269561882670428252483600823257530420752963450
 </pre></center>
 
-[题目8：找出这个1000位数字中连续13个数字乘积的最大值](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/9-810005 title="题目8")
+[题目8：找出这个1000位数字中连续13个数字乘积的最大值](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/9-810005 "题目8")
 
 ## 题解(Python)
 ```python

@@ -18,7 +18,7 @@ There exists exactly one Pythagorean triplet for which <i>a + b + c = 1000.</i>
 
 Find the product abc.
 
-[Problem 9. Special Pythagorean triplet](https://projecteuler.net/problem=9 title="Problem 9")
+[Problem 9. Special Pythagorean triplet](https://projecteuler.net/problem=9 "Problem 9")
 
 ## 翻译
 一个毕达哥拉斯三元组是一个包含三个自然数的集合，<i>a < b < c</i>，满足条件：
@@ -34,7 +34,7 @@ Find the product abc.
 
 找出该三元组中abc的乘积。
 
-[题目9：找出唯一的满足a + b + c = 1000的毕达哥拉斯三元组{a, b, c}](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/10-9a--b--c--1000a-b-c title="题目9")
+[题目9：找出唯一的满足a + b + c = 1000的毕达哥拉斯三元组{a, b, c}](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/10-9a--b--c--1000a-b-c "题目9")
 
 ## 题解(Python)
 ```python

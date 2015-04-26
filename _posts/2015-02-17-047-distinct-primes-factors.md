@@ -20,7 +20,8 @@ The first three consecutive numbers to have three distinct prime factors are:
 
 Find the first four consecutive integers to have four distinct prime factors. What is the first of these numbers?
 <!--more-->
-[Problem 47. Distinct primes factors](https://projecteuler.net/problem=47 title="Problem 47")
+
+[Problem 47. Distinct primes factors](https://projecteuler.net/problem=47 "Problem 47")
 
 ## 翻译
 
@@ -37,7 +38,7 @@ Find the first four consecutive integers to have four distinct prime factors. Wh
 
 找出最小的四个具有四个不同质数因子的整数。它们之中的第一个是多少？
 
-[题目47：找出最小的具有四个不同质数因子的四个连续整数。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/48-47 title="题目47")
+[题目47：找出最小的具有四个不同质数因子的四个连续整数。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/48-47 "题目47")
 
 ## 题解
 

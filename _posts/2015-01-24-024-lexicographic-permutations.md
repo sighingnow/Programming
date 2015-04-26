@@ -13,7 +13,7 @@ $$ 012\ 021\ 102\ 120\ 201\ 210 $$
 <!--more-->
 What is the millionth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9?
 
-[Problem 24. Lexicographic permutations](https://projecteuler.net/problem=24 title="Problem 24")
+[Problem 24. Lexicographic permutations](https://projecteuler.net/problem=24 "Problem 24")
 
 ## 翻译
 
@@ -23,7 +23,7 @@ $$ 012\ 021\ 102\ 120\ 201\ 210 $$
 
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9的第100万个字典排列是什么？
 
-[题目24：0,1,2,3,4,5,6,7,8,9的第100万个字典排列是什么](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/25-240123456789100 title="题目24")
+[题目24：0,1,2,3,4,5,6,7,8,9的第100万个字典排列是什么](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/25-240123456789100 "题目24")
 
 ## 题解
 

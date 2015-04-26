@@ -12,7 +12,7 @@ If all the numbers from 1 to 1000 (one thousand) inclusive were written out in w
 <!--more-->
 *NOTE*: Do not count spaces or hyphens. For example, 342 (three hundred and forty-two) contains 23 letters and 115 (one hundred and fifteen) contains 20 letters. The use of "and" when writing out numbers is in compliance with British usage.
 
-[Problem 17. Number letter counts](https://projecteuler.net/problem=17 title="Problem 17")
+[Problem 17. Number letter counts](https://projecteuler.net/problem=17 "Problem 17")
 
 ## 翻译
 如果用英文写出数字1到5: one, two, three, four, five, 那么一共需要3 + 3 + 5 + 4 + 4 = 19个字母。
@@ -21,7 +21,7 @@ If all the numbers from 1 to 1000 (one thousand) inclusive were written out in w
 
 *注意*: 空格和连字符不算在内。例如，342 (three hundred and forty-two)包含23个字母； 115 (one hundred and fifteen)包含20个字母。"and" 的使用与英国标准一致。
 
-[题目17:用英文写出1到1000的所有数字需要多少个字母](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/18-1711000 title="题目17")
+[题目17:用英文写出1到1000的所有数字需要多少个字母](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/18-1711000 "题目17")
 
 ## 题解(Python)
 

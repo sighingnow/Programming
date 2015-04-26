@@ -13,7 +13,7 @@ Find the sum of all numbers, less than one million, which are palindromic in bas
 
 (Please note that the palindromic number, in either base, may not include leading zeros.)
 <!--more-->
-[Problem 36. Double-base palindromes](https://projecteuler.net/problem=36 title="Problem 36")
+[Problem 36. Double-base palindromes](https://projecteuler.net/problem=36 "Problem 36")
 
 ## 翻译
 
@@ -25,7 +25,7 @@ Find the sum of all numbers, less than one million, which are palindromic in bas
 
 （注意在两种进制下的数字都不包括最前面的0）
 
-[题目36：出100万以下所有十进制和二进制表示都是回文的数字之和。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/37-36100 title="题目36")
+[题目36：出100万以下所有十进制和二进制表示都是回文的数字之和。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/37-36100 "题目36")
 
 ## 题解
 

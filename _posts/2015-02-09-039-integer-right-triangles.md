@@ -13,7 +13,7 @@ If p is the perimeter of a right angle triangle with integral length sides, {a,b
 
 For which value of p ≤ 1000, is the number of solutions maximised?
 <!--more-->
-[Problem 39. Integer right triangles](https://projecteuler.net/problem=39 title="Problem 39")
+[Problem 39. Integer right triangles](https://projecteuler.net/problem=39 "Problem 39")
 
 ## 翻译
 
@@ -23,7 +23,7 @@ For which value of p ≤ 1000, is the number of solutions maximised?
 
 对于1000以下的p中，哪一个能够产生最多的解？
 
-[题目39：如果p是直角三角形{a,b,c}的周长，1000以下的p中哪一个具有最多的解？](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/40-39pabc1000p title="题目39")
+[题目39：如果p是直角三角形{a,b,c}的周长，1000以下的p中哪一个具有最多的解？](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/40-39pabc1000p "题目39")
 
 ## 题解
 

@@ -23,7 +23,7 @@ Let <i>d</i><sub>1</sub> be the 1st digit, <i>d</i><sub>2</sub> be the 2nd digit
 
 Find the sum of all 0 to 9 pandigital numbers with this property.
 
-[Problem 43. Sub-string divisibility](https://projecteuler.net/problem=43 title="Problem 43")
+[Problem 43. Sub-string divisibility](https://projecteuler.net/problem=43 "Problem 43")
 
 ## 翻译
 
@@ -43,7 +43,7 @@ Find the sum of all 0 to 9 pandigital numbers with this property.
 
 求所有具有如上性质的0到9pandigital数的和。
 
-[题目43：找出所有具有异常子串整除性的pandigital数之和。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/44-43pandigital title="题目43")
+[题目43：找出所有具有异常子串整除性的pandigital数之和。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/44-43pandigital "题目43")
 
 ## 题解
 

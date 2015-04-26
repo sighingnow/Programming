@@ -17,7 +17,7 @@ If dn represents the nth digit of the fractional part, find the value of the fol
 
 $$ d_1 \times d_10 \times d_100 \times d_1000 \times d_10000 \times d_100000 \times d_1000000 $$
 
-[Problem 40. Champernowne's constant](https://projecteuler.net/problem=40 title="Problem 40")
+[Problem 40. Champernowne's constant](https://projecteuler.net/problem=40 "Problem 40")
 
 ## 翻译
 
@@ -31,7 +31,7 @@ $$ 0.123456789101112131415161718192021... $$
 
 $$ d_1 \times d_10 \times d_100 \times d_1000 \times d_10000 \times d_100000 \times d_1000000 $$
 
-[题目40：找出这个无理数的小数部分的第n位。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/41-40n title="题目40")
+[题目40：找出这个无理数的小数部分的第n位。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/41-40n "题目40")
 
 ## 题解
 

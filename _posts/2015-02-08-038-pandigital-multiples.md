@@ -19,7 +19,7 @@ The same can be achieved by starting with 9 and multiplying by 1, 2, 3, 4, and 5
 
 What is the largest 1 to 9 pandigital 9-digit number that can be formed as the concatenated product of an integer with (1,2, ... , n) where n > 1?
 
-[Problem 38. Pandigital multiples](https://projecteuler.net/problem=38 title="Problem 38")
+[Problem 38. Pandigital multiples](https://projecteuler.net/problem=38 "Problem 38")
 
 ## 翻译
 
@@ -35,7 +35,7 @@ What is the largest 1 to 9 pandigital 9-digit number that can be formed as the c
 
 用一个整数与1,2, ... , n（n大于1）的连接积构造而成的1到9pandigital数中最大的是多少？
 
-[题目38：最大的能够通过一个固定数与1,2,3，...相乘得到的1到9pandigital数是多少？](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/39-3812319pandigital title="题目38")
+[题目38：最大的能够通过一个固定数与1,2,3，...相乘得到的1到9pandigital数是多少？](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/39-3812319pandigital "题目38")
 
 ## 题解
 

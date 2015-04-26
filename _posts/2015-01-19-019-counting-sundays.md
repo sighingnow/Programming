@@ -20,7 +20,7 @@ You are given the following information, but you may prefer to do some research 
 
 How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?
 <!--more-->
-[Problem 19. Counting Sundays](https://projecteuler.net/problem=19 title="Problem 19")
+[Problem 19. Counting Sundays](https://projecteuler.net/problem=19 "Problem 19")
 
 ## 翻译
 
@@ -35,7 +35,7 @@ How many Sundays fell on the first of the month during the twentieth century (1 
 
 20世纪（1901年1月1日到2000年12月31日）一共有多少个星期日落在了当月的第一天？
 
-[题目19: 20世纪有多少个星期日是当月的第一天](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/20-1920 title="题目19")
+[题目19: 20世纪有多少个星期日是当月的第一天](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/20-1920 "题目19")
 
 ## 题解(Python)
 

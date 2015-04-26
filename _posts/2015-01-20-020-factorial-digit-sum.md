@@ -14,7 +14,7 @@ and the sum of the digits in the number 10! is $$ 3 + 6 + 2 + 8 + 8 + 0 + 0 = 27
 
 Find the sum of the digits in the number 100!
 <!--more-->
-[Problem 20. Factorial digit sum](https://projecteuler.net/problem=20 title="Problem 20")
+[Problem 20. Factorial digit sum](https://projecteuler.net/problem=20 "Problem 20")
 
 ## 翻译
 
@@ -25,7 +25,7 @@ $$ n! = n \times (n − 1) \times ... \times 3 \times 2  1 $$
 
 算出100!的各位之和。
 
-[题目20:算出100！的各位之和](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/21-20100 title="题目20")
+[题目20:算出100！的各位之和](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/21-20100 "题目20")
 
 ## 题解(Python)
 

@@ -40,7 +40,7 @@ Find the maximum total from top to bottom of the triangle below:
 
 *NOTE*: As there are only 16384 routes, it is possible to solve this problem by trying every route. However, Problem 67, is the same challenge with a triangle containing one-hundred rows; it cannot be solved by brute force, and requires a clever method! ;o)
 
-[Problem 18. Maximum path sum I](https://projecteuler.net/problem=18 title="Problem 18")
+[Problem 18. Maximum path sum I](https://projecteuler.net/problem=18 "Problem 18")
 
 ## 翻译
 
@@ -75,7 +75,7 @@ Find the maximum total from top to bottom of the triangle below:
 04 62 98 27 23 09 70 98 73 93 38 53 60 04 23
 </pre></center>
 
-[题目18:找出从三角形顶端走到底端的最大和](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/19-18 title="题目18")
+[题目18:找出从三角形顶端走到底端的最大和](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/19-18 "题目18")
 
 ## 题解(Python)
 

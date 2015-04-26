@@ -15,7 +15,7 @@ There are exactly four non-trivial examples of this type of fraction, less than 
 
 If the product of these four fractions is given in its lowest common terms, find the value of the denominator.
 
-[Problem 33. Digit cancelling fractions](https://projecteuler.net/problem=33 title="Problem 33")
+[Problem 33. Digit cancelling fractions](https://projecteuler.net/problem=33 "Problem 33")
 
 ## 翻译
 
@@ -27,7 +27,7 @@ If the product of these four fractions is given in its lowest common terms, find
 
 如果将这四个分数的乘积约分到最简式，分母是多少？
 
-[题目33：找出具有一种奇怪约分性质的所有分数。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/34-33 title="题目33")
+[题目33：找出具有一种奇怪约分性质的所有分数。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/34-33 "题目33")
 
 ## 题解
 

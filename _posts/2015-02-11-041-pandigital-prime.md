@@ -11,7 +11,7 @@ We shall say that an _n-digit_ number is pandigital if it makes use of all the d
 
 What is the largest _n-digit_ pandigital prime that exists?
 <!--more-->
-[Problem 41. Pandigital prime](https://projecteuler.net/problem=41 title="Problem 41")
+[Problem 41. Pandigital prime](https://projecteuler.net/problem=41 "Problem 41")
 
 ## 翻译
 
@@ -19,7 +19,7 @@ What is the largest _n-digit_ pandigital prime that exists?
 
 最大的n位pandigital质数是多少？
 
-[题目41：最大的n位pandigital质数是多少？](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/42-41npandigital title="题目41")
+[题目41：最大的n位pandigital质数是多少？](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/42-41npandigital "题目41")
 
 ## 题解
 

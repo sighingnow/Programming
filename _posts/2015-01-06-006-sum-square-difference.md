@@ -20,7 +20,7 @@ Hence the difference between the sum of the squares of the first ten natural num
 
 Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
-[Problem 6. Sum square difference](https://projecteuler.net/problem=6 title="Problem 6")
+[Problem 6. Sum square difference](https://projecteuler.net/problem=6 "Problem 6")
 
 ## 翻译
 前十个自然数的平方和是：
@@ -35,7 +35,7 @@ $$</center>
 
 找出前一百个自然数的平方和与和平方的差。
 
-[题目6：找出最小的能被1-20中每个数整除的数](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/6-51-20 title="题目6")
+[题目6：找出最小的能被1-20中每个数整除的数](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/6-51-20 "题目6")
 
 ## 题解(Python)
 ```python

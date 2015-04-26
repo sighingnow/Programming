@@ -19,7 +19,7 @@ The sum of these numbers is 1634 + 8208 + 9474 = 19316.
 
 Find the sum of all the numbers that can be written as the sum of fifth powers of their digits.
 
-[Problem 30. Digit fifth powers](https://projecteuler.net/problem=30 title="Problem 30")
+[Problem 30. Digit fifth powers](https://projecteuler.net/problem=30 "Problem 30")
 
 ## 翻译
 
@@ -35,7 +35,7 @@ $$ 9474 = 9^4 + 4^4 + 7^4 + 4^4 $$
 
 找出所有能被写成各位数字五次方之和的数之和。
 
-[题目30：找出所有能够写成各位数字5次方之和的数之和](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/31-305 title="题目30")
+[题目30：找出所有能够写成各位数字5次方之和的数之和](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/31-305 "题目30")
 
 ## 题解
 

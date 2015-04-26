@@ -13,7 +13,7 @@ Starting in the top left corner of a 2×2 grid, and only being able to move to t
 How many such routes are there through a 20×20 grid?
 <!--more-->
 
-[Problem 15.Lattice-paths](https://projecteuler.net/problem=15 title="Problem 15")
+[Problem 15.Lattice-paths](https://projecteuler.net/problem=15 "Problem 15")
 
 ## 翻译
 从一个20×20网格的左上角开始，有6条（不允许往回走）通往右下角的路。
@@ -22,7 +22,7 @@ How many such routes are there through a 20×20 grid?
 
 对于20×20的网格，这样的路有多少条？
 
-[题目15:从20*20的网格的左上角通往右下角有多少条路](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/16-152020 title="题目15")
+[题目15:从20*20的网格的左上角通往右下角有多少条路](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/16-152020 "题目15")
 
 ## 题解(Python)
 

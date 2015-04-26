@@ -27,7 +27,7 @@ We can see that 28 is the first triangle number to have over five divisors.
 
 What is the value of the first triangle number to have over five hundred divisors?
 
-[Problem 12. Highly divisible triangular number](https://projecteuler.net/problem=12 title="Problem 12")
+[Problem 12. Highly divisible triangular number](https://projecteuler.net/problem=12 "Problem 12")
 
 ## 翻译
 三角形数序列是由对自然数的连加构造而成的。所以第七个三角形数是1 + 2 + 3 + 4 + 5 + 6 + 7 = 28. 那么三角形数序列中的前十个是：
@@ -50,7 +50,7 @@ $$ 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, ... $$
 
 那么第一个拥有超过500个约数的三角形数是多少？
 
-[题目12:第一个拥有超过500个约数的三角形数是多少](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/13-12500 title="题目12")
+[题目12:第一个拥有超过500个约数的三角形数是多少](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/13-12500 "题目12")
 
 ## 题解(Python)
 

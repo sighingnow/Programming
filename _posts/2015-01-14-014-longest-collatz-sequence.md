@@ -19,7 +19,7 @@ Which starting number, under one million, produces the longest chain?
 
 *NOTE*: Once the chain starts the terms are allowed to go above one million.
 
-[Problem 14. Longest Collatz sequence](https://projecteuler.net/problem=14 title="Problem 14")
+[Problem 14. Longest Collatz sequence](https://projecteuler.net/problem=14 "Problem 14")
 
 ## 翻译
 以下迭代序列定义在整数集合上：
@@ -33,7 +33,7 @@ $$ 13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1 $$
 
 *注意*: 一旦序列开始之后，也就是从第二项开始，项是可以超过100万的。
 
-[题目14:找出以100万以下的数字开始的最长序列](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/15-14100 title="题目14")
+[题目14:找出以100万以下的数字开始的最长序列](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/15-14100 "题目14")
 
 ## 题解(Python)
 

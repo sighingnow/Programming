@@ -17,11 +17,12 @@ Starting with the number 1 and moving to the right in a clockwise direction a 5 
 17 16 15 14 13
 </pre></center>
 <!--more-->
+
 It can be verified that the sum of the numbers on the diagonals is 101.
 
 What is the sum of the numbers on the diagonals in a 1001 by 1001 spiral formed in the same way?
 
-[Problem 28. Number spiral diagonals](https://projecteuler.net/problem=28 title="Problem 28")
+[Problem 28. Number spiral diagonals](https://projecteuler.net/problem=28 "Problem 28")
 
 ## 翻译
 
@@ -39,7 +40,7 @@ What is the sum of the numbers on the diagonals in a 1001 by 1001 spiral formed 
 
 1001×1001的螺旋中对角线上数字之和是多少？
 
-[题目28：1001×1001的螺旋中两条对角线之和是多少](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/29-281001t1001 title="题目28")
+[题目28：1001×1001的螺旋中两条对角线之和是多少](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/29-281001t1001 "题目28")
 
 ## 题解
 

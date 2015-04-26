@@ -20,7 +20,7 @@ It turns out that the conjecture was false.
 <!--more-->
 What is the smallest odd composite that cannot be written as the sum of a prime and twice a square?
 
-[Problem 46. Goldbach's other conjecture](https://projecteuler.net/problem=46 title="Problem 46")
+[Problem 46. Goldbach's other conjecture](https://projecteuler.net/problem=46 "Problem 46")
 
 ## 翻译
 
@@ -37,7 +37,7 @@ Christian Goldbach 提出每个奇合数都可以写作一个质数与一个平�
 
 最小的不能写作一个质数与一个平方数的二倍之和的奇合数是多少？
 
-[题目46：最小的不能写作一个质数与一个平方数的二倍之和的奇合数是多少？](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/47-46 title="题目46")
+[题目46：最小的不能写作一个质数与一个平方数的二倍之和的奇合数是多少？](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/47-46 "题目46")
 
 ## 题解
 

@@ -13,7 +13,7 @@ There are no arithmetic sequences made up of three 1-, 2-, or 3-digit primes, ex
 <!--more-->
 What 12-digit number do you form by concatenating the three terms in this sequence?
 
-[Problem 49. Prime permutations](https://projecteuler.net/problem=49 title="Problem 49")
+[Problem 49. Prime permutations](https://projecteuler.net/problem=49 "Problem 49")
 
 ## 翻译
 
@@ -23,7 +23,7 @@ What 12-digit number do you form by concatenating the three terms in this sequen
 
 如果将这另外一个序列的三个数连接起来，组成的12位数字是多少？
 
-[题目49：找出由互为排列的4位数质数组成的序列。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/50-494 title="题目49")
+[题目49：找出由互为排列的4位数质数组成的序列。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/50-494 "题目49")
 
 ## 题解
 

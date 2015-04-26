@@ -13,7 +13,7 @@ There are thirteen such primes below 100: 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73
 
 How many circular primes are there below one million?
 <!--more-->
-[Problem 35. Circular primes](https://projecteuler.net/problem=35 title="Problem 35")
+[Problem 35. Circular primes](https://projecteuler.net/problem=35 "Problem 35")
 
 ## 翻译
 
@@ -23,7 +23,7 @@ How many circular primes are there below one million?
 
 100万以下有多少个循环质数？
 
-[题目35：100万以下有多少个循环质数？](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/36-35100 title="题目35")
+[题目35：100万以下有多少个循环质数？](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/36-35100 "题目35")
 
 ## 题解
 

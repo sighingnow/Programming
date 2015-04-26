@@ -15,7 +15,7 @@ It can be seen that P<sub>4</sub> + P<sub>7</sub> = 22 + 70 = 92 = P<sub>8</sub>
 <!--more-->
 Find the pair of pentagonal numbers, Pj and Pk, for which their sum and difference are pentagonal and D = |P<sub>k</sub> − P<sub>j</sub>| is minimised; what is the value of D?
 
-[Problem 44. Pentagon numbers](https://projecteuler.net/problem=44 title="Problem 44")
+[Problem 44. Pentagon numbers](https://projecteuler.net/problem=44 "Problem 44")
 
 ## 翻译
 
@@ -27,7 +27,7 @@ $$ 1, 5, 12, 22, 35, 51, 70, 92, 117, 145, ... $$
 
 找出最小的五角数对Pj 和 Pk,， 使得它们的和与差都是五角数，并且D = |P<sub>k</sub> − P<sub>j</sub>| 取到最小。这时D的值是多少?
 
-[题目44：找出最小的和与差都是五角数的五角数对。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/45-44 title="题目44")
+[题目44：找出最小的和与差都是五角数的五角数对。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/45-44 "题目44")
 
 ## 题解
 

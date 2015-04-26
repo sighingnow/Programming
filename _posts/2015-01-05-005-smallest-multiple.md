@@ -10,14 +10,14 @@ layout: post
 
 What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
-[Problem 5. Smallest multiple](https://projecteuler.net/problem=5 title="Problem 5")
+[Problem 5. Smallest multiple](https://projecteuler.net/problem=5 "Problem 5")
 <!--more-->
 ## 翻译
 2520是最小的能被1-10中每个数字整除的正整数。
 
 最小的能被1-20中每个数整除的正整数是多少？
 
-[题目5：找出最小的能被1-20中每个数整除的数](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/6-51-20 title="题目5")
+[题目5：找出最小的能被1-20中每个数整除的数](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/6-51-20 "题目5")
 
 ## 题解(Python)
 ```python

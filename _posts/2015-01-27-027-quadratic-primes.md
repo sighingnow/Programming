@@ -22,7 +22,7 @@ Considering quadratics of the form:
 
 Find the product of the coefficients, a and b, for the quadratic expression that produces the maximum number of primes for consecutive values of n, starting with n = 0.
 
-[Problem 27. Quadratic primes](https://projecteuler.net/problem=27 title="Problem 27")
+[Problem 27. Quadratic primes](https://projecteuler.net/problem=27 "Problem 27")
 
 ## 翻译
 
@@ -41,7 +41,7 @@ $$ n^2 + n + 41 $$
 
 对于能够为从0开始的连续的n产生最多数量的质数的二次公式，找出该公式的系数乘积。
 
-[题目27：找出为连续数字产生最多质数的二次公式。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/28-27 title="题目27")
+[题目27：找出为连续数字产生最多质数的二次公式。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/28-27 "题目27")
 
 ## 题解
 

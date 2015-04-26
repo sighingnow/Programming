@@ -18,7 +18,7 @@ It can be verified that T<sub>285</sub> = P<sub>165</sub> = H<sub>143</sub> = 40
 
 Find the next triangle number that is also pentagonal and hexagonal.
 
-[Problem 45. Triangular, pentagonal, and hexagonal](https://projecteuler.net/problem=45 title="Problem 45")
+[Problem 45. Triangular, pentagonal, and hexagonal](https://projecteuler.net/problem=45 "Problem 45")
 
 ## 翻译
 
@@ -32,7 +32,7 @@ Find the next triangle number that is also pentagonal and hexagonal.
 
 找出这之后的下一个既是五角数又是六角数的三角数。
 
-[题目45：在40755之后最小的既是五角数又是六角数的三角数是多少？](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/46-4540755 title="题目45")
+[题目45：在40755之后最小的既是五角数又是六角数的三角数是多少？](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/46-4540755 "题目45")
 
 ## 题解
 

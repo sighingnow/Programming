@@ -15,7 +15,7 @@ Find the sum of all products whose multiplicand/multiplier/product identity can 
 
 **HINT**: <small>Some products can be obtained in more than one way so be sure to only include it once in your sum.</small>
 
-[Problem 32. Pandigital products](https://projecteuler.net/problem=32 title="Problem 32")
+[Problem 32. Pandigital products](https://projecteuler.net/problem=32 "Problem 32")
 
 ## 翻译
 
@@ -27,7 +27,7 @@ Find the sum of all products whose multiplicand/multiplier/product identity can 
 
 **提示**: <small>有的乘积数字能够被多个乘法算式得到，所以在计算时要记得只计算它们一次。</small>
 
-[题目32：找出所有能写成pandigital数字乘积的数字之和](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/33-32pandigital title="题目32")
+[题目32：找出所有能写成pandigital数字乘积的数字之和](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/33-32pandigital "题目32")
 
 ## 题解
 

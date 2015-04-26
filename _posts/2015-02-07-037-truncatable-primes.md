@@ -13,7 +13,7 @@ Find the sum of the only eleven primes that are both truncatable from left to ri
 <!--more-->
 NOTE: 2, 3, 5, and 7 are not considered to be truncatable primes.
 
-[Problem 37. Truncatable primes](https://projecteuler.net/problem=37 title="Problem 37")
+[Problem 37. Truncatable primes](https://projecteuler.net/problem=37 "Problem 37")
 
 ## 翻译
 
@@ -23,7 +23,7 @@ NOTE: 2, 3, 5, and 7 are not considered to be truncatable primes.
 
 注意：2,3,5和7不被认为是可裁剪的质数。
 
-[题目37：找出所有11个可以双向裁剪的质数。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/38-3711 title="题目37")
+[题目37：找出所有11个可以双向裁剪的质数。](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/38-3711 "题目37")
 
 ## 题解
 

@@ -36,7 +36,7 @@ The product of these numbers is $$ 26 × 63 × 78 × 14 = 1788696. $$
 What is the product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid?
 
 
-[Problem 11. Summation of primes](https://projecteuler.net/problem=11 title="Problem 11")
+[Problem 11. Summation of primes](https://projecteuler.net/problem=11 "Problem 11")
 
 ## 翻译
 在以下这个20×20的网格中，四个处于同一对角线上的相邻数字用红色标了出来：
@@ -65,7 +65,7 @@ What is the product of four adjacent numbers in the same direction (up, down, le
 这四个数字的乘积是：$$ 26 × 63 × 78 × 14 = 1788696. $$
 在这个20×20网格中，处于任何方向上（上，下，左，右或者对角线）的四个相邻数字的乘积的最大值是多少？
 
-[题目11:在20×20的网格中同一直线上四个数的最大乘积是多少](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/12-1120t20 title="题目11")
+[题目11:在20×20的网格中同一直线上四个数的最大乘积是多少](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/12-1120t20 "题目11")
 
 ## 题解(Python)
 

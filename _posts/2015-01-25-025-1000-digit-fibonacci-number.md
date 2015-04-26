@@ -32,7 +32,7 @@ The 12th term, F12, is the first term to contain three digits.
 
 What is the first term in the Fibonacci sequence to contain 1000 digits?
 
-[Problem 25. 1000-digit Fibonacci number](https://projecteuler.net/problem=25 title="Problem 25")
+[Problem 25. 1000-digit Fibonacci number](https://projecteuler.net/problem=25 "Problem 25")
 
 ## 翻译
 
@@ -61,7 +61,7 @@ $$ Fn = Fn−1 + Fn−2, F1 = 1, F2 = 1. $$
 
 斐波那契数列中第一个包含1000位数字的项是第几项？
 
-[题目25：第一个包含1000位数字的斐波那契数列项是第几项](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/26-251000 title="题目25")
+[题目25：第一个包含1000位数字的斐波那契数列项是第几项](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/26-251000 "题目25")
 
 ## 题解
 

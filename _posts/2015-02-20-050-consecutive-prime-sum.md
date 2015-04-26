@@ -13,9 +13,10 @@ This is the longest sum of consecutive primes that adds to a prime below one-hun
 
 The longest sum of consecutive primes below one-thousand that adds to a prime, contains 21 terms, and is equal to 953.
 <!--more-->
+
 Which prime, below one-million, can be written as the sum of the most consecutive primes?
 
-[Problem 50. Consecutive prime sum](https://projecteuler.net/problem=50 title="Problem 50")
+[Problem 50. Consecutive prime sum](https://projecteuler.net/problem=50 "Problem 50")
 
 ## 翻译
 
@@ -29,7 +30,7 @@ $$ 41 = 2 + 3 + 5 + 7 + 11 + 13 $$
 
 100万以下的哪个质数能够写成最长的连续质数序列？
 
-[题目50：100万以下的哪个质数能够写成最多连续质数的和？](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/51-50100 title="题目50")
+[题目50：100万以下的哪个质数能够写成最多连续质数的和？](http://pe.spiritzhang.com/index.php/2011-05-11-09-44-54/51-50100 "题目50")
 
 ## 题解
 
