@@ -26,7 +26,7 @@ For more details of these problems, please visit [projecteuler](https://projecte
 Homepage
 --------
 
-[Project-euler-solutions -- Github](https://dhdave.github.io/project-euler-solutions/)
+[Project-euler-solutions -- Github](http://he-tao.github.io/project-euler-solutions/)
 
 License
 -------
