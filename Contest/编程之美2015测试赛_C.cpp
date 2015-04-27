@@ -59,7 +59,7 @@ int costflow(int s, int t) {
 int main(int argc, char** argv) {
     scanf("%d", &T);
 
-    while (T--) {
+    for(int t = 1; t <= T; ++t) {
         scanf("%d%d", &n, &m);
 
         for (int i = 0; i <= m+n+1; ++i) {
@@ -83,7 +83,7 @@ int main(int argc, char** argv) {
             cap[i][n+m+1] = 1, mma[i][n+m+1] = 0;
         }
 
-        printf("%d\n", costflow(0, n+m+1));
+        printf("Case #%d: %d\n", t, costflow(0, n+m+1));
     }
 
     return 0;

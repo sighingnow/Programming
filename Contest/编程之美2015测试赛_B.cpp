@@ -5,12 +5,12 @@ using namespace std;
 // f[n] = 1/8 n^3 (1 + n)^3 - 1/2 n (1 + n) (-n + n^3)
 
 int main(int argc, char** argv) {
-    long long t, n, MOD = 1000000007;
+    long long T, n, MOD = 1000000007;
     long long ans, tmp1, tmp2;
 
-    scanf("%lld", &t);
+    scanf("%lld", &T);
 
-    while (t--) {
+    for(int t = 1; t <= T; ++t) {
         scanf("%lld", &n);
         tmp1 = (((n%MOD)*(n%MOD))%MOD)*(n%MOD)%MOD;
         tmp2 = ((((n+1)%MOD)*((n+1)%MOD))%MOD)*((n+1)%MOD)%MOD;
@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
             ans += MOD;
         }
 
-        printf("%lld\n", ans);
+        printf("Case #%d: %lld\n", t, ans);
     }
 
     return 0;
