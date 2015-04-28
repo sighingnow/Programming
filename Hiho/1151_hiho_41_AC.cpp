@@ -1,32 +1,45 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
-const long long MOD = 12357;
+void multi(long long int n, long long int m[][2], long long int tem[][2]) {
+    long long int ret[2][2] = {{m[0][0], m[0][1]}, {m[1][0], m[1][1]}};
+    long long int tmp[2][2];
+    tem[0][0] = tem[1][1] = 1;
+    tem[0][1] = tem[1][0] = 0;
 
-long long N;
-long long a[5];
-
-void solve() {
-    a[0] = 0;
-    a[1] = 2;
-    a[2] = 3;
-    for (int i = 3; i <= N; ++i) {
-        if (i & 1) {
-            a[i%5] = (2*a[(i-1+5)%5] + a[(i-2+5)%5]) % MOD;
-        } else {
-            a[i%5] = (3*a[(i-2+5)%5] + a[(i-3+5)%5]) % MOD;
+    while (n) {
+        if (n & 1) {
+            tmp[0][0] = tem[0][0] * ret[0][0] + tem[0][1] * ret[1][0];
+            tmp[0][1] = tem[0][0] * ret[0][1] + tem[0][1] * ret[1][1];
+            tmp[1][0] = tem[1][0] * ret[0][0] + tem[1][1] * ret[1][0];
+            tmp[1][1] = tem[1][0] * ret[0][1] + tem[1][1] * ret[1][1];
+            tem[0][0] = tmp[0][0] % 19999997;
+            tem[0][1] = tmp[0][1] % 19999997;
+            tem[1][0] = tmp[1][0] % 19999997;
+            tem[1][1] = tmp[1][1] % 19999997;
         }
+
+        tmp[0][0] = ret[0][0] * ret[0][0] + ret[0][1] * ret[1][0];
+        tmp[0][1] = ret[0][0] * ret[0][1] + ret[0][1] * ret[1][1];
+        tmp[1][0] = ret[1][0] * ret[0][0] + ret[1][1] * ret[1][0];
+        tmp[1][1] = ret[1][0] * ret[0][1] + ret[1][1] * ret[1][1];
+        ret[0][0] = tmp[0][0] % 19999997;
+        ret[0][1] = tmp[0][1] % 19999997;
+        ret[1][0] = tmp[1][0] % 19999997;
+        ret[1][1] = tmp[1][1] % 19999997;
+        n >>= 1;
     }
-    cout << a[N%5] << endl;
 }
 
-int main(int argc, char **argv) {
-    while (cin >> N) {
-        if (N & 1) {
-            cout << "0" << endl;
-        } else {
-            solve();
-        }
-    }
+int main(int argc, char** argv) {
+    long long int n;
+    long long ans[2][2];
+    long long matrix[2][2];
+
+    scanf("%lld", &n);
+    matrix[0][0] = 0;
+    matrix[0][1] = matrix[1][0] = matrix[1][1] = 1;
+    multi(n+1, matrix, ans);
+    printf("%lld\n", ans[0][1] % 19999997);
+
     return 0;
 }
