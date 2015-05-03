@@ -6,6 +6,7 @@ __author__ = 'He Tao'
 '''
 Leet Code OJ
 001: Two Sums
+    https://leetcode.com/problems/two-sum/
 '''
 
 class Solution:

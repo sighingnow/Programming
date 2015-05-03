@@ -6,6 +6,7 @@ __author__ = 'He Tao'
 '''
 Leet Code OJ
 020: Valid Parentheses
+    https://leetcode.com/problems/valid-parentheses/
 '''
 
 class Solution:

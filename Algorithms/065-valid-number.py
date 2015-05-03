@@ -6,6 +6,7 @@ __author__ = 'He Tao'
 '''
 Leet Code OJ
 065: Valid Number
+    https://leetcode.com/problems/valid-number/
 '''
 
 class Solution:

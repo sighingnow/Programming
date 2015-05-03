@@ -6,6 +6,7 @@ __author__ = 'He Tao'
 '''
 Leet Code OJ
 004: Median of Two Sorted Arrays
+    https://leetcode.com/problems/median-of-two-sorted-arrays/
 '''
 
 class Solution:

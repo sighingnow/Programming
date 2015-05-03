@@ -6,6 +6,7 @@ __author__ = 'He Tao'
 '''
 Leet Code OJ
 002: Longest Substring Without Repeating Characters
+    https://leetcode.com/problems/longest-substring-without-repeating-characters/
 '''
 
 class Solution:
