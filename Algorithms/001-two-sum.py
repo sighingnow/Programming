@@ -4,7 +4,8 @@
 __author__ = 'DHDave'
 
 '''
- * Author: DHDave (buaahetao@gmai.com)
+Leet Code OJ
+001: Two Sums
 '''
 
 class Solution:
@@ -14,7 +15,7 @@ class Solution:
         for n in num:
             index += 1
             comb.append((n, index))
-        comb.sort(key = (lambda x:x[0]))
+        comb.sort(key = (lambda x : x[0]))
         first, last, ans = 1-1, index-1, comb[0][0]+comb[index-1][0]
         while ans != target:
             if ans < target:
@@ -26,8 +27,4 @@ class Solution:
             return comb[first][1], comb[last][1]
         else:
             return comb[last][1], comb[first][1]
-
-
-# vim: set sw=4, ts=4, fileencoding=utf-8
-
 
