@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # -*- coding: utf-8
 
-__author__ = 'DHDave'
+__author__ = 'He Tao'
 
 '''
 Leet Code OJ

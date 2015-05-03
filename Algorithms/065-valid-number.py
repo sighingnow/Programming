@@ -1,3 +1,13 @@
+#! /usr/bin/env python
+# -*- coding: utf-8
+
+__author__ = 'He Tao'
+
+'''
+Leet Code OJ
+065: Valid Number
+'''
+
 class Solution:
     # @param s, a string
     # @return a boolean
