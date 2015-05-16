@@ -3,8 +3,8 @@ Programmming
 
 The solutions of problems on some Online-Judge.
 
-OJ
----
+Problems
+--------
 
 1. [HihoCoder](http://hihocoder.com "HihoCoder")
 2. [LeetCode OJ](https://leetcode.com "LeetCode OJ")
