@@ -37,4 +37,4 @@ def docx2txt(file):
     return xml2txt(text)
 
 if __name__ == '__main__':
-    print(docx2txt('a.doc'))
+    print(docx2txt('java.docx'))

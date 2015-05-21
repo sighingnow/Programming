@@ -13,14 +13,12 @@ int dp(char s[], int len) {
     }
     for(int k = 1; k < len; ++k) {
         for(int i = 0; i + k < len; ++i) {
+            f[i][i+k] = (f[i][i+k]+f[i+1][i+k]+f[i][i+k-1]-f[i+1][i+k-1]+MOD)%MOD;
             if(s[i] == s[i+k]) {
                 f[i][i+k] = (f[i][i+k]+f[i+1][i+k-1]+1)%MOD;
             }
-            else {
-                f[i][i+k] = (f[i][i+k]+f[i+1][i+k]+f[i][i+k-1]-f[i+1][i+k-1]+MOD)%MOD;
-            }
         }
-    
+    } 
     return f[0][len-1]%MOD;
 }
 

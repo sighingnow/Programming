@@ -14,7 +14,8 @@ long long dist, xx, yy, ans;
 long long calc(long long x, long long y) {
     long long result = 0L, minb = 1000000000000000000LL;
     for(int i = 1; i <= a; ++i) {
-        result += ((A[i][0]-x)*(A[i][0]-x)+(A[i][1]-y)*(A[i][1]-y));
+        result += (long long)(A[i][0]-x)*(A[i][0]-x);
+        result += (long long)(A[i][1]-y)*(A[i][1]-y);
     }
     for(int j = 1; j <= b; ++j) {
         minb = min(minb, (fabs(B[j][0]-x)+fabs(B[j][1]-y)));
@@ -23,7 +24,8 @@ long long calc(long long x, long long y) {
 }
 
 int main(int argc, char** args) {
-    int T, t = 0, n, m, u, v, r, s;
+    int T, t = 0, n, m;
+    long long u, v, r, s;
     scanf("%d", &T);
     while(++t <= T) {
         scanf("%d%d%d%d", &n, &m, &a, &b);
@@ -40,19 +42,7 @@ int main(int argc, char** args) {
         v = calc(xx/a, yy/a+1);
         r = calc(xx/a+1, yy/a);
         s = calc(xx/a+1, yy/a+1);
-
-        if(u<=v&&u<=r&&u<=s) {
-            ans = u;
-        }
-        if(v<=u&&v<=r&&v<=s) {
-            ans = v;
-        }
-        if(r<=u&&r<=v&&r<=s) {
-            ans = r;
-        }
-        if(s<=u&&s<=v&&s<=r) {
-            ans = s;
-        }
+        ans=min(u, v); ans=min(ans,r); ans=min(ans,s);
         printf("Case #%d: %lld\n", t, ans);
     }
 

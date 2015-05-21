@@ -10,22 +10,22 @@ Problems
 
     Convert .docx file to plain text file.
 
-5. [PyBrainFuck][2]
+5. [PyBrainFuck][5]
 
     A simple BrainFuck interperter wirtten in Python.
 
 Online-Judge
 -------------
 
-1. [HihoCoder][3]
+1. [HihoCoder][2]
 
     Solutions for [HihoCoder OJ][6].
 
-2. [LeetCode OJ][4]
+2. [LeetCode OJ][3]
 
     Solutions for [LeetCode OJ][7].
 
-3. [Project-Euler][5]
+3. [Project-Euler][4]
 
     Solutions for [project euler][8].
 
