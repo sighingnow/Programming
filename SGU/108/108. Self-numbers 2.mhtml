@@ -1,0 +1,123 @@
+From: <Saved by Blink>
+Subject: 108. Self-numbers 2
+Date: Thu, 29 Apr 2015 17:04:35 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_DF88_7DA2B1C8.BE1B3FF9"
+
+------=_NextPart_000_DF88_7DA2B1C8.BE1B3FF9
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://acm.sgu.ru/problem.php?contest=0&problem=108
+
+<html><head><meta charset=3D"windows-1251"><title>
+108. Self-numbers 2
+</title><meta http-equiv=3D"Expires" content=3D"=C4=E0=F2=E0"><meta http-eq=
+uiv=3D"Cache-Control" content=3D"no-cache"><meta http-equiv=3D"pragma" cont=
+ent=3D"no-cache"><meta name=3D"keywords" content=3D"ACM, programming contes=
+t, programming, contest, informatics, ioi, saratov, ICPC, =EF=F0=EE=E3=F0=
+=E0=EC=EC=E8=F0=EE=E2=E0=ED=E8=E5, =E8=ED=F4=EE=F0=EC=E0=F2=E8=EA=E0, =E0=
+=EB=E3=EE=F0=E8=F2=EC, =F1=E0=F0=E0=F2=EE=E2, =EA=EE=ED=F2=E5=F1=F2"><meta =
+name=3D"description" content=3D"That site consists of some amount of progra=
+mming problems. Online Contester system check your solution right now. You =
+can participate in programming contests. Train your programming skills."><l=
+ink rel=3D"stylesheet" href=3D"http://acm.sgu.ru/style.css" type=3D"text/cs=
+s"><style type=3D"text/css">TD{font-size:9pt;}</style><style type=3D"text/c=
+ss">#yddContainer{display:block;font-family:Microsoft YaHei;position:relati=
+ve;width:100%;height:100%;top:-4px;left:-4px;font-size:12px;border:1px soli=
+d}#yddTop{display:block;height:22px}#yddTopBorderlr{display:block;position:=
+static;height:17px;padding:2px 28px;line-height:17px;font-size:12px;color:#=
+5079bb;font-weight:bold;border-style:none solid;border-width:1px}#yddTopBor=
+derlr .ydd-sp{position:absolute;top:2px;height:0;overflow:hidden}.ydd-icon{=
+left:5px;width:17px;padding:0px 0px 0px 0px;padding-top:17px;background-pos=
+ition:-16px -44px}.ydd-close{right:5px;width:16px;padding-top:16px;backgrou=
+nd-position:left -44px}#yddKeyTitle{float:left;text-decoration:none}#yddMid=
+dle{display:block;margin-bottom:10px}.ydd-tabs{display:block;margin:5px 0;p=
+adding:0 5px;height:18px;border-bottom:1px solid}.ydd-tab{display:block;flo=
+at:left;height:18px;margin:0 5px -1px 0;padding:0 4px;line-height:18px;bord=
+er:1px solid;border-bottom:none}.ydd-trans-container{display:block;line-hei=
+ght:160%}.ydd-trans-container a{text-decoration:none;}#yddBottom{position:a=
+bsolute;bottom:0;left:0;width:100%;height:22px;line-height:22px;overflow:hi=
+dden;background-position:left -22px}.ydd-padding010{padding:0 10px}#yddWrap=
+per{color:#252525;z-index:10001;background:url(chrome-extension://eopjamdno=
+fihpioajgfdikhhbobonhbb/ab20.png);}#yddContainer{background:#fff;border-col=
+or:#4b7598}#yddTopBorderlr{border-color:#f0f8fc}#yddWrapper .ydd-sp{backgro=
+und-image:url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ydd-sprit=
+e.png)}#yddWrapper a,#yddWrapper a:hover,#yddWrapper a:visited{color:#50799=
+b}#yddWrapper .ydd-tabs{color:#959595}.ydd-tabs,.ydd-tab{background:#fff;bo=
+rder-color:#d5e7f3}#yddBottom{color:#363636}#yddWrapper{min-width:250px;max=
+-width:400px;}</style></head>
+<body>
+<table width=3D"95%"><tbody><tr><td>
+<h3><b><p align=3D"CENTER">
+108. Self-numbers 2
+</p></b></h3>
+<p align=3D"CENTER">
+time limit per test: 0.5=20
+ sec. <br> memory limit per test: 4096
+ KB
+</p>
+<p align=3D"JUSTIFY"></p>
+<p align=3D"JUSTIFY">
+In 1949 the Indian mathematician D.R. Kaprekar discovered a class of number=
+s called self-numbers. For any positive integer n, define d(n) to be n plus=
+ the sum of the digits of n. (The d stands for <i>digitadition</i>, a term =
+coined by Kaprekar.) For example, d(75) =3D 75 + 7 + 5 =3D 87. Given any po=
+sitive integer n as a starting point, you can construct the infinite increa=
+sing sequence of integers n, d(n), d(d(n)), d(d(d(n))), .... For example, i=
+f you start with 33, the next number is 33 + 3 + 3 =3D 39, the next is 39 +=
+ 3 + 9 =3D 51, the next is 51 + 5 + 1 =3D 57, and so you generate the seque=
+nce  33, 39, 51, 57, 69, 84, 96, 111, 114, 120, 123, 129, 141, ...
+The number n is called a <b>generator</b> of <b>d(n)</b>. In the sequence a=
+bove, 33 is a generator of 39, 39 is a generator of 51, 51 is a generator o=
+f 57, and so on. Some numbers have more than one generator: for example, 10=
+1 has two generators, 91 and 100. A number with <b>no generators</b> is a <=
+b>self-number</b>. Let the a[i] will be i-th self-number. There are thirtee=
+n self-numbers a[1]..a[13] less than 100: 1, 3, 5, 7, 9, 20, 31, 42, 53, 64=
+, 75, 86, and 97. (the first self-number is a[1]=3D1, the second is a[2] =
+=3D 3, :, the thirteen is a[13]=3D97);
+</p>
+<p align=3D"JUSTIFY"></p>
+<b><p align=3D"JUSTIFY">Input</p></b>
+<p align=3D"JUSTIFY">
+Input contains integer numbers N, K, s<sub>1</sub>...s<sub>k</sub>. (1&lt;=
+=3DN&lt;=3D10<sup>7</sup>, 1&lt;=3DK&lt;=3D5000) delimited by spaces and li=
+ne breaks.
+</p>
+<p align=3D"JUSTIFY"></p>
+<b><p align=3D"JUSTIFY">Output</p></b>
+<p align=3D"JUSTIFY">
+At first line you must output one number - the quantity of self-numbers in =
+interval [1..N]. Second line must contain K numbers - a[s<sub>1</sub>]..a[s=
+<sub>k</sub>], delimited by spaces. It`s a gaurantee, that all self-numbers=
+ a[s<sub>1</sub>]..a[s<sub>k</sub>] are in interval [1..N]. (for example if=
+ N =3D 100, s<sub>k</sub>  can be 1..13 and cannot be 14, because 14-th sel=
+f-number a[14] =3D 108, 108 &gt; 100)
+</p>
+<p align=3D"JUSTIFY"></p>
+<p align=3D"JUSTIFY">Sample Input</p>
+<font face=3D"Courier New">
+<pre>100 10
+1 2 3 4 5 6 7 11 12 13
+</pre>
+<p align=3D"JUSTIFY"></p>
+</font>
+
+<p align=3D"JUSTIFY">Sample Output</p>
+<font face=3D"Courier New">
+<pre>13
+1 3 5 7 9 20 31 75 86 97
+</pre>
+</font>
+</td></tr></tbody></table>
+
+
+</body></html>
+------=_NextPart_000_DF88_7DA2B1C8.BE1B3FF9
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://acm.sgu.ru/style.css
+
+
+------=_NextPart_000_DF88_7DA2B1C8.BE1B3FF9--
