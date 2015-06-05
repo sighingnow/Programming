@@ -5,7 +5,7 @@ using namespace std;
 /**
  * Sort.
  *
- * Complexity: space: O(n), Time: O(n*lg(n))
+ * Complexity: Space: O(n), Time: O(n*lg(n))
  */
 
 int n, len[1e3+5];

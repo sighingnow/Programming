@@ -10,6 +10,7 @@ public class Solution {
         int a = input.nextInt();
         int b = input.nextInt();
         System.out.println(a+b);
+
     }
 }
 

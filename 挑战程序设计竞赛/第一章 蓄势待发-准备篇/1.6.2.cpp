@@ -6,6 +6,8 @@ using namespace std;
  * POJ 1852
  *
  * 分析：两只蚂蚁相遇可以等价地视为仅仅是经过，不用考虑反向的问题。
+ *
+ * Comlexity: Time: O(n), Space: O(1).
  */
 
 int main(int argc, char **argv) {

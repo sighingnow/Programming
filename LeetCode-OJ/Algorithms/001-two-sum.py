@@ -9,6 +9,7 @@ Leet Code OJ
     https://leetcode.com/problems/two-sum/
 '''
 
+
 class Solution:
     # @return a tuple, (index1, index2)
     def twoSum(self, num, target):
@@ -16,7 +17,7 @@ class Solution:
         for n in num:
             index += 1
             comb.append((n, index))
-        comb.sort(key = (lambda x : x[0]))
+        comb.sort(key = lambda x : x[0])
         first, last, ans = 1-1, index-1, comb[0][0]+comb[index-1][0]
         while ans != target:
             if ans < target:

@@ -14,7 +14,7 @@ struct Edge {
 };
 const int maxn = 105;
 Edge edge[maxn], path[maxn];
-int mat[10][10];
+// int mat[10][10];
 int n, x, y, start = 0, flag = 0, degree[10], p = 0;
 
 void dfs(int s) {

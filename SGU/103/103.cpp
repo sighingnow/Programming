@@ -15,7 +15,7 @@ int mat[maxn][maxn];
 char ch;
 int n, m, s, t, ans, x, y, v, top = 0;
 int c[maxn], r[maxn], t1[maxn], t2[maxn];
-int dist[maxn], vis[maxn], prev[maxn], path[maxn];
+int dist[maxn], vis[maxn], previous[maxn], path[maxn];
 
 inline int getcolor(int i, int k, int & tt) {
     if(k < r[i]) {
@@ -44,7 +44,7 @@ inline int getwait(int time, int a, int b) {
 void dijstra() {
     for(int i = 1; i <= n; ++i) {  // initial.
         dist[i] = getwait(0,s,i)+mat[s][i]; 
-        prev[i] = s;
+        previous[i] = s;
     }
     dist[s] = 0; vis[s] = 1;
     for(int i = 2; i <= n; ++i) {
@@ -60,7 +60,7 @@ void dijstra() {
                 int tt=getwait(dist[u],u,j);
                 if(dist[j]>dist[u]+tt+mat[u][j]) {
                     dist[j] = dist[u]+tt+mat[u][j]; 
-                    prev[j] = u;
+                    previous[j] = u;
                 }
             }
         }
@@ -70,9 +70,9 @@ void dijstra() {
     }
     // roll back, get path.
     ans = dist[t]; int end = t;
-    while(prev[end] != end) {
+    while(previous[end] != end) {
         path[++top] = end;
-        end = prev[end];
+        end = previous[end];
     }
     path[++top] = end;
 }
