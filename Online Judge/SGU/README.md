@@ -1,1 +1,0 @@
-SGU one-by-one
