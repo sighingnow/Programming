@@ -14,6 +14,10 @@ Problems
 
     A simple BrainFuck interperter wirtten in Python.
 
+3. [CppCurrying][3]
+
+    Implementation of currying and partial application in modern C++.
+
 License
 --------
 
@@ -26,4 +30,5 @@ Copyright (c) 2015-2016 He Tao
 
 [1]: https://github.com/sighingnow/Programming/tree/master/docx2txt  "docx2txt"
 [2]: https://github.com/sighingnow/Programming/tree/master/PyBrainFuck  "PyBrainFuck"
+[3]: https://github.com/sighingnow/Programming/tree/master/CppCurrying  "CppCurrying"
 
