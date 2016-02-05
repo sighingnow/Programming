@@ -40,6 +40,12 @@ struct function_traits<Return(Class::*)(Args...) const> {
     using func_type = std::function<Return(Args...)>;
 };
 
+// for function pointer.
+template <typename Return, typename... Args>
+struct function_traits<Return (*)(Args...)> {
+    using func_type = std::function<Return(Args...)>;
+};
+
 /**
  * Currying for std::function and lambda expressions.
  */
