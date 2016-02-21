@@ -18,6 +18,11 @@ Problems
 
     Implementation of currying and partial application in modern C++.
 
+4. [CppYCombinator][4]
+
+    Implementation the famous Y Fix-point Combinator in C++.
+
+
 License
 --------
 
@@ -31,4 +36,5 @@ Copyright (c) 2015-2016 He Tao
 [1]: https://github.com/sighingnow/Programming/tree/master/docx2txt  "docx2txt"
 [2]: https://github.com/sighingnow/Programming/tree/master/PyBrainFuck  "PyBrainFuck"
 [3]: https://github.com/sighingnow/Programming/tree/master/CppCurrying  "CppCurrying"
+[3]: https://github.com/sighingnow/Programming/tree/master/CppYCombinator  "CppYCombinator"
 

@@ -36,6 +36,12 @@ struct function_traits<Return(Args...)> {
 
 // for member function.
 template <typename Class, typename Return, typename... Args>
+struct function_traits<Return(Class::*)(Args...)> {
+    using func_type = std::function<Return(Args...)>;
+};
+
+// for capturing lambda transformed lambda expression and function object. 
+template <typename Class, typename Return, typename... Args>
 struct function_traits<Return(Class::*)(Args...) const> {
     using func_type = std::function<Return(Args...)>;
 };
@@ -50,22 +56,28 @@ struct function_traits<Return (*)(Args...)> {
  * Currying for std::function and lambda expressions.
  */
 template<typename Return>
-auto curry(std::function<Return()> & f) {
+auto curry_impl(std::function<Return()> & f) {
     return std::forward<decltype(f)>(f);
 }
 
 template<typename Return, typename Arg>
-auto curry(std::function<Return(Arg)> & f) {
+auto curry_impl(std::function<Return(Arg)> & f) {
     return std::forward<decltype(f)>(f);
 }
 
 template<typename Return, typename Arg, typename... Args>
-auto curry(std::function<Return(Arg, Args...)> & f) {
+auto curry_impl(std::function<Return(Arg, Args...)> & f) {
     return [f=std::forward<decltype(f)>(f)](Arg arg) {
         std::function<Return(Args...)> rest = [&f, &arg](Args... args) -> Return {
             return f(arg, args...);
         };
-        return curry(rest);
+        return curry_impl(rest);
     };
 }
+template<typename F>
+auto curry(F const & f) {
+    typename function_traits<F>::func_type _f = f;
+    return curry_impl(_f);
+}
+
 
