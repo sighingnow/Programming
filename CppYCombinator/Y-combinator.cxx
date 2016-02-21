@@ -1,10 +1,14 @@
 /**
- * The Y Fix-point Combinator in C++.
+ * The Y Fixed-point Combinator in C++.
  */
 
 #include <iostream>
 #include <functional>
 
+/**
+ * typename F: the type of origin recursive function.
+ * typename T: the type of principle argument in the recursive function.
+ */
 template<typename F, typename T>
 auto Y(auto recurse) -> F {
     auto helper = [=](auto self) -> F {

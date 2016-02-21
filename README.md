@@ -20,7 +20,7 @@ Problems
 
 4. [CppYCombinator][4]
 
-    Implementation the famous Y Fix-point Combinator in C++.
+    Implementation the famous Y Fixed-point Combinator in C++.
 
 
 License
